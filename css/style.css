@@ -1,21 +1,25 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto";
   color: var(--title-text-color);
   letter-spacing: 0.03em;
   font-weight: 400;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
+
 :root {
   --title-text-color: #212121;
   --acent-color: #2196f3;
   --paragraph-color: #757575;
   --primary-white-color: #ffffff;
 }
+
 /*шапка*/
 .links {
   font-weight: 500;
@@ -24,19 +28,22 @@ ul {
 
   color: var(--title-text-color);
 }
+
 .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #757575;
+  font-style: normal;
 }
+
 .links:hover {
   color: var(--acent-color);
 }
+
 /*Герой*/
 .hero {
   color: var(--primary-white-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -44,6 +51,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
 /*Кнопка*/
 .button {
   color: var(--primary-white-color);
@@ -53,17 +61,20 @@ ul {
   line-height: 1.87;
   border: #ffffff;
 }
+
 .benefits {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .benefits-text {
   font-size: 14px;
   line-height: 1.7;
   color: var(--paragraph-color);
 }
+
 .pictures-header {
   font-weight: 700;
   font-size: 36px;
@@ -75,25 +86,51 @@ ul {
   font-size: 16px;
   line-height: 1.19;
 }
+
 .positions {
   font-size: 16px;
   line-height: 1.19px;
   color: var(--paragraph-color);
 }
+
 /*footer*/
 
 .address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-white-color);
 }
+
 footer {
   background: #2f303a;
 }
+
 .email-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
 /*PORTFOLIO*/
@@ -107,16 +144,19 @@ footer {
   text-align: center;
   border: #ffffff;
 }
+
 .portfolio-buttons:hover {
   background-color: var(--acent-color);
   color: var(--primary-white-color);
 }
+
 .projects-names {
   font-size: 18px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
 .types-work {
   font-size: 16px;
   line-height: 1.88;
